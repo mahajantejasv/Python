@@ -177,3 +177,15 @@ print (list(lst))
 # implementing max() function, using
 print (functools.reduce(lambda a,b: a if (a > b) else b, [7, 12, 45, 100, 15]))
 
+# Let's make three lists
+lst_1=[1,2,3]
+lst_2=[4,5,6]
+lst_3=[7,8,9]
+
+# Make a list of lists to form a matrix
+matrix = [lst_1,lst_2,lst_3]
+print(matrix)
+print([row[0] for row in matrix]) 
+print(matrix[0])
+print(matrix[0][0])
+

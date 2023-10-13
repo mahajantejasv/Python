@@ -51,6 +51,12 @@ print(max(mylist1))
 
 # print(randint(0,100))
 
+# type operator
+print(type(1))
+print(type([]))
+print(type(()))
+print(type({}))
+
 
 # input opeartor
 data = input('Enter Something into this box: ')
